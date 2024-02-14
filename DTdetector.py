@@ -4,9 +4,9 @@ import datetime
 # Replace 'YOUR_TOKEN' with your actual bot token
 bot = telebot.TeleBot('6666047597:AAHCUdEbTP_z0wzgXmTK4PNxiQhIFT9GiFw')
 
-#@bot.message_handler(func=lambda message: True)
-#def echo_message(message):
-#    bot.reply_to(message, "hello")
+@bot.message_handler(func=lambda message: True)
+def echo_message(message):
+    bot.reply_to(message, "hello")
 
 # Dictionary to store the last sent photo time for each user
 user_last_photo_time = {}
