@@ -2,7 +2,7 @@ import telebot
 import datetime
 
 # Replace 'YOUR_TOKEN' with your actual bot token
-bot = telebot.TeleBot('6666047597:AAHCUdEbTP_z0wzgXmTK4PNxiQhIFT9GiFw')
+bot = telebot.TeleBot('6929570993:AAHGy5i2_BEMyqh5SsdR1CIb8kARjHtn1os')
 
 @bot.message_handler(func=lambda message: True)
 def echo_message(message):
